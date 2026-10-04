@@ -7,4 +7,4 @@ Name: ggml
 Description: The GGML Tensor Library for Machine Learning
 Version: @GGML_VERSION@
 Cflags: -I${includedir}
-Libs: -L${libdir} -lggml
+Libs: -L${libdir} -lggml -lggml-base -lggml-cpu
